@@ -1,0 +1,321 @@
+Microsoft Windows [Versione 10.0.19045.6332]
+(c) Microsoft Corporation. Tutti i diritti sono riservati.
+
+C:\Users\stud5f>git config --global user.name "filippo pilloni"
+
+C:\Users\stud5f>git config --global user.email "pilloni.filippo.2141@itisothoca.edu.it"
+
+C:\Users\stud5f>cd Documents
+
+C:\Users\stud5f\Documents>git clone https://github.com/md-stefano/esercitazione-5F-25.git
+fatal: destination path 'esercitazione-5F-25' already exists and is not an empty directory.
+
+C:\Users\stud5f\Documents>git clone https://github.com/md-stefano/esercitazione-5F-25.git
+fatal: destination path 'esercitazione-5F-25' already exists and is not an empty directory.
+
+C:\Users\stud5f\Documents>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users\stud5f\Documents
+
+07/10/2025  12:50    <DIR>          .
+07/10/2025  12:50    <DIR>          ..
+30/09/2025  13:26    <DIR>          esercitazione-5F-25
+07/10/2025  12:50                18 filippo-pilloni.pdf
+30/09/2025  13:01                34 filippo-pilloni.txt
+               2 File             52 byte
+               3 Directory  13.895.569.408 byte disponibili
+
+C:\Users\stud5f\Documents>git clone https://github.com/md-stefano/esercitazione-5F-25.git
+fatal: destination path 'esercitazione-5F-25' already exists and is not an empty directory.
+
+C:\Users\stud5f\Documents>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\stud5f\Documents>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\stud5f\Documents>git checkout -b filippo.pilloni-feature
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\stud5f\Documents>git checkout -b filippo-pilloni-feature
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\stud5f\Documents>git clone https://github.com/md-stefano/esercitazione-5F-25.git
+fatal: destination path 'esercitazione-5F-25' already exists and is not an empty directory.
+
+C:\Users\stud5f\Documents>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\stud5f\Documents>cd esercitazione-5F-25
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>ls
+"ls" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git status
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git branch
+* filippo-pilloni-feature
+  main
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>nano filippo-pilloni.txt
+"nano" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git status
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git status
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git diff
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git branch
+* filippo-pilloni-feature
+  main
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git commit -m "prova"
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git add .
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git status
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git add filippo-pilloni.txt
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>git status
+On branch filippo-pilloni-feature
+nothing to commit, working tree clean
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>cd
+C:\Users\stud5f\Documents\esercitazione-5F-25
+
+C:\Users\stud5f\Documents\esercitazione-5F-25>cd ..
+
+C:\Users\stud5f\Documents>cd ..
+
+C:\Users\stud5f>cd ..
+
+C:\Users>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users
+
+19/09/2025  12:50    <DIR>          .
+19/09/2025  12:50    <DIR>          ..
+24/09/2025  09:47    <DIR>          Administrator
+06/12/2022  09:02    <DIR>          amministratore
+18/03/2021  12:18    <DIR>          Public
+29/09/2025  06:32    <DIR>          stud4e
+07/10/2025  09:22    <DIR>          stud5e
+07/10/2025  13:14    <DIR>          stud5f
+19/09/2025  12:51    <DIR>          stud5i
+24/09/2025  09:55    <DIR>          Studente
+               0 File              0 byte
+              10 Directory  13.890.949.120 byte disponibili
+
+C:\Users>cd ..
+
+C:\>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\
+
+27/02/2025  15:04    <DIR>          emu8086
+04/07/2025  12:16    <DIR>          inetpub
+24/09/2025  08:24    <DIR>          Intel
+09/06/2023  09:11    <DIR>          lbr
+07/12/2019  11:14    <DIR>          PerfLogs
+07/10/2025  12:18    <DIR>          Program Files
+24/09/2025  09:45    <DIR>          Program Files (x86)
+19/09/2025  12:50    <DIR>          Users
+15/11/2022  11:54    <DIR>          WCH.CN
+24/09/2025  10:50    <DIR>          Windows
+18/03/2021  14:26    <DIR>          xampp
+               0 File              0 byte
+              11 Directory  13.890.949.120 byte disponibili
+
+C:\>cd Users
+
+C:\Users>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users
+
+19/09/2025  12:50    <DIR>          .
+19/09/2025  12:50    <DIR>          ..
+24/09/2025  09:47    <DIR>          Administrator
+06/12/2022  09:02    <DIR>          amministratore
+18/03/2021  12:18    <DIR>          Public
+29/09/2025  06:32    <DIR>          stud4e
+07/10/2025  09:22    <DIR>          stud5e
+07/10/2025  13:14    <DIR>          stud5f
+19/09/2025  12:51    <DIR>          stud5i
+24/09/2025  09:55    <DIR>          Studente
+               0 File              0 byte
+              10 Directory  13.890.949.120 byte disponibili
+
+C:\Users>cd stud5f
+
+C:\Users\stud5f>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users\stud5f
+
+07/10/2025  13:14    <DIR>          .
+07/10/2025  13:14    <DIR>          ..
+07/10/2025  12:58                79 .gitconfig
+07/10/2025  13:14                20 .lesshst
+30/09/2025  13:33             1.332 .viminfo
+19/09/2025  12:44    <DIR>          3D Objects
+19/09/2025  12:44    <DIR>          Contacts
+23/09/2025  13:08    <DIR>          Desktop
+07/10/2025  12:50    <DIR>          Documents
+07/10/2025  12:34    <DIR>          Downloads
+19/09/2025  12:44    <DIR>          Favorites
+19/09/2025  12:44    <DIR>          Links
+19/09/2025  12:44    <DIR>          Music
+19/09/2025  12:45    <DIR>          OneDrive
+19/09/2025  12:44    <DIR>          Pictures
+19/09/2025  12:44    <DIR>          Saved Games
+19/09/2025  12:45    <DIR>          Searches
+19/09/2025  12:48    <DIR>          Videos
+               3 File          1.431 byte
+              15 Directory  13.890.813.952 byte disponibili
+
+C:\Users\stud5f>cd Desktop
+
+C:\Users\stud5f\Desktop>cd Documents
+
+C:\Users\stud5f\Desktop\Documents>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users\stud5f\Desktop\Documents
+
+07/10/2025  13:12    <DIR>          .
+07/10/2025  13:12    <DIR>          ..
+07/10/2025  12:50                18 filippo-pilloni.pdf
+07/10/2025  13:12                 5 filippo-pilloni.txt
+               2 File             23 byte
+               2 Directory  13.897.150.464 byte disponibili
+
+C:\Users\stud5f\Desktop\Documents>git clone https://github.com/md-stefano/esercitazione-5F-25
+Cloning into 'esercitazione-5F-25'...
+remote: Enumerating objects: 65, done.
+remote: Counting objects: 100% (65/65), done.
+remote: Compressing objects: 100% (52/52), done.
+remote: Total 65 (delta 21), reused 36 (delta 8), pack-reused 0 (from 0)
+Receiving objects: 100% (65/65), 2.81 MiB | 3.99 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+
+C:\Users\stud5f\Desktop\Documents>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: D095-1511
+
+ Directory di C:\Users\stud5f\Desktop\Documents
+
+07/10/2025  13:19    <DIR>          .
+07/10/2025  13:19    <DIR>          ..
+07/10/2025  13:19    <DIR>          esercitazione-5F-25
+07/10/2025  12:50                18 filippo-pilloni.pdf
+07/10/2025  13:12                 5 filippo-pilloni.txt
+               2 File             23 byte
+               3 Directory  13.894.434.816 byte disponibili
+
+C:\Users\stud5f\Desktop\Documents>cd esercitazione-5F-25
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        filippo-pilloni.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git add filippo-pilloni.txt
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   filippo-pilloni.txt
+
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git add .
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git commit -m "Aggiunto file personale con informazioni dello studente"
+[main 5407998] Aggiunto file personale con informazioni dello studente
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filippo-pilloni.txt
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git pull origin main
+From https://github.com/md-stefano/esercitazione-5F-25
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin filippo-pilloni-feature
+error: src refspec filippo-pilloni-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin filippo-pilloni-feature
+error: src refspec filippo-pilloni-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin filippopilloni-feature
+error: src refspec filippopilloni-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git pull origin main
+From https://github.com/md-stefano/esercitazione-5F-25
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin pillonifilippo2141-wq-feature
+error: src refspec pillonifilippo2141-wq-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin filippo pilloni-feature
+error: src refspec filippo does not match any
+error: src refspec pilloni-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push origin filippo-pilloni-feature
+error: src refspec filippo-pilloni-feature does not match any
+error: failed to push some refs to 'https://github.com/md-stefano/esercitazione-5F-25'
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git pull origin main
+From https://github.com/md-stefano/esercitazione-5F-25
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 323 bytes | 323.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/md-stefano/esercitazione-5F-25
+   1bb6c2f..5407998  main -> main
+
+C:\Users\stud5f\Desktop\Documents\esercitazione-5F-25>git add filippo-pil
